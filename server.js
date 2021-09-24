@@ -1,5 +1,4 @@
 require("dotenv").config();
-
 const express = require("express");
 
 // local dependencies
@@ -10,7 +9,6 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // middlewares
-
 app.use("/api/file",fileRouter)
 
 
